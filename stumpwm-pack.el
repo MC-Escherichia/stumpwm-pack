@@ -19,7 +19,7 @@
   (interactive)
   (find-file-other-window "~/.stumpwmrc"))
 
-(global-set-key (kbd "C-c f s") 'stumpwm-pack/find-user-init-file!)
+(global-set-key (kbd "C-c C-w") 'stumpwm-pack/find-user-init-file!)
 
 (setq stumpwm-mode-hook)
 (add-hook 'stumpwm-mode-hook
