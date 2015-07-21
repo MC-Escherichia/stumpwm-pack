@@ -31,7 +31,9 @@
             (eldoc-mode 1)
             (smartscan-mode)
             (define-key stumpwm-mode-map (kbd "C-c m r") 'stumpwm-eval-region)
-            (define-key stumpwm-mode-map (kbd "C-c m b") 'stumpwm-pack/eval-buffer)))
+            (define-key stumpwm-mode-map (kbd "C-c m b") 'stumpwm-pack/eval-buffer)
+            (lisp-mode)
+            ))
 
 (defun stumpwm-pack/eval-buffer ()
   "Eval the current buffer."
